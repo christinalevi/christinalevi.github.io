@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f7dce8; /* pastel pink */
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4.2rem;
+            font-weight: 300;
+            color: #a64c76;
+            margin-bottom: 0px;
+        }
+
+        h2 {
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.4rem;
+            font-weight: 300;
+            color: #a64c76;
+            margin-top: -5px;
+            margin-bottom: 25px;
+        }
+
+        .photo-frame {
+            width: 100%;
+            height: 280px;
+            background: #ffffff;
+            border: 2px solid #d8a7bc;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Coming Soon</h1>
+        <h2>A Portfolio by Christina Levi</h2>
+
+        <div class="photo-frame">
+            <img src="portfolioimages/photocomingsoon.jpg" alt="Portfolio Photo">
+        </div>
+
+    </div>
+</body>
+</html>
